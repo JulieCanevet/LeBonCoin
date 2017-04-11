@@ -95,10 +95,114 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* - - - - - - - HEADER - - - - - - - */
+header
+{
+  background-color: orange;
+  display: flex;
+  justify-content: flex-start;
+  height: 5em;
+  align-items: center;
+}
 
+header button
+{
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 5%;
+  color: orange;
+  padding: .7em;
+  margin: 2em;
+  font-size: 1.3em;
+}
 
+header h1
+{
+  color: white;
+}
 
+/* - - - - - - FIN DU HEADER - - - - - - */
 
+.accueil
+{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.accueil h2
+{
+  font-size: 1em;
+  text-align: center;
+  margin-left:
+}
+
+h2 span
+{
+  color: orange;
+}
+
+.accueil button
+{
+  padding: .7em 20% .7em 20%;
+  margin-top: 1em;
+  border-radius: 8px;
+}
+
+/* réglage du bouton "deposer une annonce"*/
+.deposer
+{
+  color: white;
+  background-color: blue;
+  border: 1px solid white;
+}
+
+/* réglage du bouton "rechercher une annonce"*/
+.rechercher
+{
+  color: blue;
+  border: 1px solid blue;
+  background-color: white;
+}
+
+/* Image de la carte de France */
+.accueil figure
+{
+  margin: auto;
+}
+
+/* Réglage du bouton "choisissez une région" */
+
+form select
+{
+  margin-top: 1em;
+  padding: .7em 20% .7em 20%;
+  border: 1px solid lightgrey;
+  background-color: white;
+  font-weight: bold;
+}
+
+.accueil a
+{
+  text-decoration: none;
+}
+
+/* - - - - - - - - FIN DE LA PAGE D'ACCUEIL - - - - - - - - - - */
+
+footer
+{
+  width: 100%;
+  background-color: grey;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+footer p
+{
+  color: white;
+  margin-left: 5%;
+}
 
 
 
