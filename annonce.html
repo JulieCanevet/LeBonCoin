@@ -30,8 +30,9 @@
 <h2>Déposer une annonce</h2>
 <hr>
 
+<h3>Votre annonce</h3>
+
 <form>
-  <h3>Votre annonce</h3>
 <label for="categorie">Catégorie*</label>
 <select name="choix">
   <option value="choice">"Choisissez une catégorie"</option>
@@ -61,38 +62,45 @@
 <label for="demandes">Demandes</label>
 
 <p>Titre de l'annonce</p>
-<textarea name="titre" rows="8" cols="40"></textarea>
+<textarea name="titre" rows="8" cols="35"></textarea>
 <br>
 
 <p>Texte de l'annonce *</p>
-<textarea name="texte" rows="8" cols="40"></textarea>
+<textarea name="texte" rows="8" cols="35"></textarea>
 
 <p>Prix</p>
 <div class="prix">
 <input type="text"/>
 </div>
-</form>
+
 
 <p>Photos : Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
 
 <article class="photo">
-  <h4>7ème photo supplémentaire</h4>
+  <h4>7ème photo <br>supplémentaire</h4>
+  <figure>
+    <img src="img/appareil.png" alt="appareil photo">
 </article>
 
+</form>
+
+
+<h3>Localisation</h3>
+
 <form>
-  <h3>Localisation</h3>
 
   <p>Ville ou code postal</p>
-  <textarea rows="8" cols="40">
+  <textarea rows="2" cols="35">
   </textarea>
 
   <p>adresse</p>
-  <textarea rows="8" cols="40" placeholder="Voie ou numéro + voie">
-  </textarea>
+  <input type"text" placeholder="Voie ou numéro + voie"/>
 
-<button type="submit" name="valider">Valider mon adresse</button>
+<br>
 
-<p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
+<button class="adresse" type="submit" name="valider">Valider mon adresse</button>
+
+<p class="complement">Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
 Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
 
 <figure>
@@ -101,8 +109,8 @@ Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue san
 
 </form>
 
+<h3>Vos informations</h3>
 <form>
-  <p>Vos informations</p>
   <label for="pseudo">Pseudo *</label>
   <input type="pseudo"></input>
 

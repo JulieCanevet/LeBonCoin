@@ -123,7 +123,7 @@ header h1
 
 /* - - - - - - FIN DU HEADER - - - - - - */
 
-.accueil
+.accueil, .annonce
 {
   width: 90%;
   margin: auto;
@@ -189,7 +189,104 @@ form select
 }
 
 /* - - - - - - - - FIN DE LA PAGE D'ACCUEIL - - - - - - - - - - */
+/* - - - - - - - - DEBUT DE LA PAGE 'DEPOSER UNE ANNONCE' - - - - - - - */
 
+.annonce h2
+{
+  color: grey;
+  text-align: left;
+  margin-top: 1.5em;
+  margin-bottom: .2em;
+}
+
+.annonce hr
+{
+  margin-top: 0;
+}
+
+.annonce form
+{
+  border: 1px solid lightgrey;
+  margin-top: 0;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-bottom: .5em;
+}
+
+textarea
+{
+  width: 100%;
+}
+
+/* Titres des formulaires */
+.annonce h3
+{
+  background-color: grey;
+  color: white;
+  text-align: left;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: .5em;
+  margin-bottom: 0px;
+}
+
+/* Cadre pointillé orange */
+.photo
+{
+  color: orange;
+  border: 2px dashed orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Icon appareil photo */
+.photo figure
+{
+  width: 15%;
+  height: 15%;
+}
+
+/* Icon appareil photo */
+.photo img
+{
+  width: 100%;
+}
+
+/* Reglage du bouton 'valider votre adresse' */
+.adresse
+{
+  width: 95%;
+  color: white;
+  background-color: orange;
+  margin-top: 2em;
+  margin-left: 2%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 5%;
+  text-align: center;
+}
+
+/* paragraphe sur fond bleu ciel */
+.complement
+{
+  background-color: lightblue;
+  border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/* - - - - - - - - FIN DE LA PAGE 'DEPOSER UNE ANNONCE' - - - - - - */
 footer
 {
   width: 100%;
