@@ -296,16 +296,132 @@ textarea
   font-weight: bold;
   text-align: right;
 }
-
-
-
-
-
-
-
-
-
 /* - - - - - - - - FIN DE LA PAGE 'DEPOSER UNE ANNONCE' - - - - - - */
+
+/* - - - - - - - - DEBUT DE LA PAGE 'OFFRES' - - - - - - - - - - */
+
+.offres
+{
+  width: 95%;
+  margin: auto;
+}
+
+.offres article
+{
+  margin: 0;
+  border: 1px solid lightgrey;
+  padding-left: 1em;
+  padding-bottom: 2em;
+}
+
+.offres .maisonvolante
+{
+  margin-top: 2em;
+}
+.offres figure
+{
+  width: 95%;
+  height: 95%;
+  margin-left: 0;
+}
+
+.offres img
+{
+  width: 100%;
+}
+
+.offres article p
+{
+  margin-bottom: 2em;
+}
+
+.devis
+{
+  border: 1px solid blue;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: .8em;
+  margin-left: 30%;
+}
+
+table
+{
+  margin-top: 0;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+th
+{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+tr
+{
+  border: 1px solid lightgrey;
+  margin-bottom: 0;
+}
+
+.orange
+{
+  background-color: orange;
+}
+
+.offres h3, .offres p
+{
+  margin-left: 5%;
+}
+
+.description
+{
+  border: 1px solid lightgrey;
+}
+
+.wazemmes
+{
+  width: 80%;
+  border: 1px solid lightgrey;
+
+}
+
+.wazemmes h2
+{
+  background-color: grey;
+  width: 100%;
+}
+
+.bordure
+{
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.wazemmes a
+{
+  display: inline-flex;
+  padding: 2em;
+}
+
+.bordure ul
+{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+/* - - - - - - - - DEBUT DU FOOTER - - - - - - - - - */
 footer
 {
   width: 100%;
@@ -320,9 +436,7 @@ footer p
   margin-left: 5%;
 }
 
-
-
-
+/* - - - - FIN DU FOOTER - - - - - */
 
 
 
