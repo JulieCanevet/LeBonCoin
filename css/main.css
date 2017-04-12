@@ -151,11 +151,12 @@ h2 span
 }
 
 /* réglage du bouton "deposer une annonce"*/
-.deposer
+.deposer, .informations button
 {
   color: white;
   background-color: blue;
   border: 1px solid white;
+  width: 95%;
 }
 
 /* réglage du bouton "rechercher une annonce"*/
@@ -164,6 +165,7 @@ h2 span
   color: blue;
   border: 1px solid blue;
   background-color: white;
+  width: 95%;
 }
 
 /* Image de la carte de France */
@@ -213,6 +215,7 @@ form select
   padding-left: .5em;
   padding-right: .5em;
   padding-bottom: .5em;
+  margin-bottom: 2em;
 }
 
 textarea
@@ -277,6 +280,22 @@ textarea
   border-radius: 5%;
 }
 
+.position
+{
+  text-align: center;
+  border: 1px solid lightgrey;
+}
+
+.informations
+{
+  line-height: 3em;
+}
+
+.informations p
+{
+  font-weight: bold;
+  text-align: right;
+}
 
 
 
