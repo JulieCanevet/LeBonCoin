@@ -1,10 +1,12 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -15,6 +17,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -34,6 +37,7 @@ html {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -47,20 +51,17 @@ hr {
     padding: 0;
 }
 
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
+
 
 /*
  * Remove default fieldset styles.
@@ -72,6 +73,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -79,6 +81,7 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -91,482 +94,452 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+
 /* - - - - - - - HEADER - - - - - - - */
-header
-{
-  background-color: #FF792F;
-  display: flex;
-  justify-content: flex-start;
-  height: 5em;
-  align-items: center;
+
+header {
+    background-color: #FF792F;
+    display: flex;
+    justify-content: flex-start;
+    height: 5em;
+    align-items: center;
 }
 
-header button
-{
-  background-color: white;
-  border: 0px solid white;
-  border-radius: 5%;
-  color: #FF792F;
-  padding: .7em;
-  margin: 2em;
-  font-size: 1.3em;
+header button {
+    background-color: white;
+    border: 0px solid white;
+    border-radius: 5%;
+    color: #FF792F;
+    padding: .7em;
+    margin: 2em;
+    font-size: 1.3em;
 }
 
-header h1
-{
-  color: white;
+header h1 {
+    color: white;
 }
+
 
 /* - - - - - - FIN DU HEADER - - - - - - */
 
-.accueil, .annonce
-{
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.accueil h2
-{
-  font-size: 1em;
-  text-align: center;
+.accueil, .annonce {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-h2 span
-{
-  color: #FF792F;
+.accueil h2 {
+    font-size: 1em;
+    text-align: center;
 }
 
-.accueil button
-{
-  padding: .7em 20% .7em 20%;
-  margin-top: 1em;
-  border-radius: 8px;
+h2 span {
+    color: #FF792F;
 }
+
+.accueil button {
+    padding: .7em 20% .7em 20%;
+    margin-top: 1em;
+    border-radius: 8px;
+}
+
 
 /* réglage du bouton "deposer une annonce"*/
-.deposer, .informations button
-{
-  color: white;
-  background-color: #5E71FF;
-  border: 1px solid white;
-  width: 95%;
+
+.deposer, .informations button {
+    color: white;
+    background-color: #5E71FF;
+    border: 1px solid white;
+    width: 95%;
 }
+
 
 /* réglage du bouton "rechercher une annonce"*/
-.rechercher
-{
-  color: #5E71FF;
-  border: 1px solid #5E71FF;
-  background-color: white;
-  width: 95%;
+
+.rechercher {
+    color: #5E71FF;
+    border: 1px solid #5E71FF;
+    background-color: white;
+    width: 95%;
 }
 
+
 /* Image de la carte de France */
-.accueil figure
-{
-  margin: auto;
+
+.accueil figure {
+    margin: auto;
 }
+
 
 /* Réglage du bouton "choisissez une région" */
 
-form select
-{
-  margin-top: 1em;
-  padding: .7em 20% .7em 20%;
-  border: 1px solid lightgrey;
-  background-color: white;
-  font-weight: bold;
+form select {
+    margin-top: 1em;
+    padding: .7em 20% .7em 20%;
+    border: 1px solid lightgrey;
+    background-color: white;
+    font-weight: bold;
 }
 
-.accueil a
-{
-  text-decoration: none;
+.accueil a {
+    text-decoration: none;
 }
+
 
 /* - - - - - - - - FIN DE LA PAGE D'ACCUEIL - - - - - - - - - - */
+
+
 /* - - - - - - - - DEBUT DE LA PAGE 'DEPOSER UNE ANNONCE' - - - - - - - */
 
-.annonce h2
-{
-  color: grey;
-  text-align: left;
-  margin-top: 1.5em;
-  margin-bottom: .2em;
+.annonce h2 {
+    color: grey;
+    text-align: left;
+    margin-top: 1.5em;
+    margin-bottom: .2em;
 }
 
-.annonce hr
-{
-  margin-top: 0;
+.annonce hr {
+    margin-top: 0;
 }
 
-.annonce form
-{
-  border: 1px solid lightgrey;
-  margin-top: 0;
-  text-align: left;
-  padding-top: 1em;
-  padding-left: .5em;
-  padding-right: .5em;
-  padding-bottom: .5em;
-  margin-bottom: 2em;
+.annonce form {
+    border: 1px solid lightgrey;
+    margin-top: 0;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: .5em;
+    margin-bottom: 2em;
 }
 
-textarea
-{
-  width: 100%;
+textarea {
+    width: 100%;
 }
+
 
 /* Titres des formulaires */
-.annonce h3
-{
-  background-color: grey;
-  color: white;
-  text-align: left;
-  margin-top: 2em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: .5em;
-  margin-bottom: 0px;
+
+.annonce h3 {
+    background-color: grey;
+    color: white;
+    text-align: left;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: .5em;
+    margin-bottom: 0px;
 }
+
 
 /* Cadre pointillé orange */
-.photo
-{
-  color: #FF792F;
-  border: 2px dashed #FF792F;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+.photo {
+    color: #FF792F;
+    border: 2px dashed #FF792F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 /* Icon appareil photo */
-.photo figure
-{
-  width: 15%;
-  height: 15%;
+
+.photo figure {
+    width: 15%;
+    height: 15%;
 }
+
 
 /* Icone appareil photo */
-.photo img
-{
-  width: 100%;
+
+.photo img {
+    width: 100%;
 }
+
 
 /* Ajout de la bordure à l'article */
-.localisation
-{
-  border: 1px solid lightgrey;
+
+.localisation {
+    border: 1px solid lightgrey;
 }
+
+
 /* Reglage du bouton 'valider votre adresse' */
-.adresse
-{
-  width: 95%;
-  color: white;
-  background-color: #FF792F;
-  margin-top: 2em;
-  margin-left: 2%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border-radius: 5%;
-  text-align: center;
+
+.adresse {
+    width: 95%;
+    color: white;
+    background-color: #FF792F;
+    margin-top: 2em;
+    margin-left: 2%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 5%;
+    text-align: center;
 }
+
 
 /* paragraphe sur fond bleu ciel */
-.complement
-{
-  background-color: #C4F3FF;
-  border-radius: 5%;
+
+.complement {
+    background-color: #C4F3FF;
+    border-radius: 5%;
+}
+
+.localisation form {
+    border: 1px solid white;
+}
+
+.position {
+    text-align: center;
+    border: 1px solid lightgrey;
+}
+
+.informations {
+    line-height: 3em;
+}
+
+.informations p {
+    font-weight: bold;
+    text-align: right;
 }
 
 
-.localisation form
-{
-  border: 1px solid white;
-}
-
-.position
-{
-  text-align: center;
-  border: 1px solid lightgrey;
-}
-
-.informations
-{
-  line-height: 3em;
-}
-
-.informations p
-{
-  font-weight: bold;
-  text-align: right;
-}
 /* - - - - - - - - FIN DE LA PAGE 'DEPOSER UNE ANNONCE' - - - - - - */
+
 
 /* - - - - - - - - DEBUT DE LA PAGE 'OFFRES' - - - - - - - - - - */
 
-.offres
-{
-  width: 95%;
-  margin: auto;
+.offres {
+    width: 95%;
+    margin: auto;
 }
 
-.offres article
-{
-  margin: 0;
-  border: 1px solid lightgrey;
-  padding-left: 1em;
-  padding-bottom: 2em;
+.offres article {
+    margin: 0;
+    border: 1px solid lightgrey;
+    padding-left: 1em;
+    padding-bottom: 2em;
 }
 
-.offres .maisonvolante
-{
-  margin-top: 2em;
-}
-.offres figure
-{
-  width: 95%;
-  height: 95%;
-  margin-left: 0;
+.offres .maisonvolante {
+    margin-top: 2em;
 }
 
-.offres img
-{
-  width: 100%;
+.offres figure {
+    width: 95%;
+    height: 95%;
+    margin-left: 0;
 }
 
-.offres article p
-{
-  margin-bottom: 2em;
+.offres img {
+    width: 100%;
 }
 
-.devis
-{
-  border: 1px solid #5E71FF;
-  font-weight: bold;
-  border-radius: 5px;
-  text-decoration: none;
-  padding: .8em;
-  margin-left: 30%;
+.offres article p {
+    margin-bottom: 2em;
 }
 
-table
-{
-  margin-top: 0;
-  width: 100%;
-  margin-bottom: 0px;
+.devis {
+    border: 1px solid #5E71FF;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: .8em;
+    margin-left: 30%;
 }
 
-th
-{
-  padding-top: 1em;
-  padding-bottom: 1em;
+table {
+    margin-top: 0;
+    width: 100%;
+    margin-bottom: 0px;
 }
 
-tr
-{
-  border: 1px solid lightgrey;
-  margin-bottom: 0;
+th {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.orange
-{
-  background-color: orange;
+tr {
+    border: 1px solid lightgrey;
+    margin-bottom: 0;
 }
 
-.offres h3, .offres p
-{
-  margin-left: 5%;
+/* Cases colorées du tableau */
+.orange {
+    background-color: #DBD9D4;
 }
 
-.description
-{
-  border: 1px solid lightgrey;
+.offres h3, .offres p {
+    margin-left: 5%;
 }
 
-.wazemmes
-{
-  width: 80%;
-  border: 1px solid lightgrey;
-
+.description {
+    border: 1px solid lightgrey;
 }
 
-.wazemmes h2
-{
-  background-color: grey;
-  width: 100%;
+.wazemmes {
+    width: 80%;
+    border: 1px solid lightgrey;
 }
 
-.bordure
-{
-  border: 1px solid lightgrey;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 2em;
+.wazemmes h2 {
+    background-color: grey;
+    width: 100%;
 }
+
+.bordure {
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
 
 /* Liens dans la case "wazemmes" */
-.wazemmes a
-{
-  display: inline-flex;
-  padding: 2em;
+
+.wazemmes a {
+    display: inline-flex;
+    padding: 2em;
 }
 
+
 /* Liste des liens avec les icones */
-.bordure ul
-{
+
+.bordure ul {
     width: 100%;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
 
-.tablette
-{
-  display: none;
-}
-
-@media (min-width: 768px )
-{
-.mobile
-  {
+.tablette {
     display: none;
-  }
-
-/* Version tablette */
-  .tablette
-  {
-    display: flex;
-    justify-content: space-around;
-  }
-
-/* Ajout de la liste dans le header version tablette */
-.header ul, a
-{
-  display: flex;
-  list-style-type: none;
-  color: white;
-  text-decoration: none;
 }
 
-/* Mise en forme des 3 blocs de la page d'accueil */
-.tablette .blocs
-{
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Mise en forme des boutons "déposer une annonce" et "rechercher autour de moi"*/
-.tablette .deposer, .tablette .rechercher
-{
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  padding-top: 1em;
-}
-
-/* Mise en forme de la liste à droite de l'écran */
-aside ul li
-{
-  color: #5E71FF;
-  text-align: right;
-  list-style-type: none;
-
-}
-
-/* Mise en forme du bouton select et du paragraphe du bas */
-.region
-{
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  text-align: center;
-}
-
-.localisation
-{
-  display:flex;
-  border: 1px solid lightgrey;
-}
-
-.localisation form
-{
-  border: 1px solid white;
-}
-
-/* -------------- PAGE OFFRES -------------- */
-/* section principale */
-.offres
-{
-  display: flex;
-}
-
-/* liens de la liste avec les icones à droite */
-.offres ul a, .bordure article a
-{
-  color: #5E71FF;
-}
-
-/* Espacement des deux articles à droite de l'écran */
-.bordure article
-{
-  margin-top: 1em;
-}
-
-/* Mise en forme de la case "gérer vos annonces"*/
-.gerer
-{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.haut, .bas
-{
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.bordure
-{
-  border: 1px solid white;
-}
-
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    /* Version tablette */
+    .tablette {
+        display: flex;
+        justify-content: space-around;
+    }
+    /* Ajout de la liste dans le header version tablette */
+    .header ul, a {
+        display: flex;
+        list-style-type: none;
+        color: white;
+        text-decoration: none;
+    }
+    .header li {
+        margin-left: 1em;
+    }
+    header .login {
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        height: 100%;
+    }
+    .login a {
+        margin-top: 1.8em;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    /* Mise en forme des 3 blocs de la page d'accueil */
+    .tablette .blocs {
+        display: flex;
+        justify-content: space-around;
+    }
+    .blocs div {
+        margin: 2em;
+    }
+    /* Mise en forme des boutons "déposer une annonce" et "rechercher autour de moi"*/
+    .tablette .deposer, .tablette .rechercher {
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    /* Mise en forme de la liste à droite de l'écran */
+    aside ul li {
+        color: #5E71FF;
+        text-align: right;
+        list-style-type: none;
+    }
+    /* Mise en forme du bouton select et du paragraphe du bas */
+    .region {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    .localisation {
+        display: flex;
+        border: 1px solid lightgrey;
+    }
+    .localisation form {
+        border: 1px solid white;
+    }
+    /* -------------- PAGE OFFRES -------------- */
+    /* section principale */
+    .offres {
+        display: flex;
+    }
+    /* liens de la liste avec les icones à droite */
+    .offres ul a, .bordure article a {
+        color: #5E71FF;
+    }
+    /* Espacement des deux articles à droite de l'écran */
+    .bordure article {
+        margin-top: 1em;
+    }
+    /* Mise en forme de la case "gérer vos annonces"*/
+    .gerer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .haut, .bas {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .bordure {
+        border: 1px solid white;
+    }
 }
 
 
 /* - - - - - - - - DEBUT DU FOOTER - - - - - - - - - */
-footer
-{
-  width: 100%;
-  background-color: grey;
-  padding-top: 1em;
-  padding-bottom: 1em;
+
+footer {
+    width: 100%;
+    background-color: grey;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-footer p
-{
-  color: white;
-  margin-left: 5%;
+footer p {
+    color: white;
+    margin-left: 5%;
 }
+
 
 /* - - - - FIN DU FOOTER - - - - - */
-
-
-
-
-
-
 
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -575,6 +548,7 @@ footer p
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -592,14 +566,14 @@ footer p
     width: 1px;
 }
 
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -608,6 +582,7 @@ footer p
     width: auto;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -615,6 +590,7 @@ footer p
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -628,15 +604,17 @@ footer p
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -648,12 +626,10 @@ footer p
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -662,74 +638,52 @@ footer p
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
+    *, *:before, *:after, *:first-letter, *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }

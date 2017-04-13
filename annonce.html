@@ -1,54 +1,58 @@
 <!doctype html>
 <html class="no-js" lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>leboncoin</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="icon" href="favicon.png" />
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>leboncoin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-<!-- HEADER VERSION MOBILE -->
-<header class="mobile">
-  <button type="submit">Menu</button>
-  <h1>leboncoin</h1>
-</header>
+    <!-- Add your site or application content here -->
+    <!-- HEADER VERSION MOBILE -->
+    <header class="mobile">
+        <button type="submit">Menu</button>
+        <h1>leboncoin</h1>
+    </header>
 
-<!-- AJOUT DU HEADER VERSION TABLETTE -->
-<header class="header tablette">
-<h1>leboncoin</h1>
-<ul>
-  <li>DEPOSER UNE ANNONCE</li>
-  <li>OFFRES</li>
-  <li>DEMANDES</li>
-  <li>MES ANNONCES</li>
-  <li>BOUTIQUES</li>
-</ul>
+    <!-- AJOUT DU HEADER VERSION TABLETTE -->
+    <header class="header tablette">
+        <h1>leboncoin</h1>
+        <ul>
+            <li>DEPOSER UNE ANNONCE</li>
+            <li>OFFRES</li>
+            <li>DEMANDES</li>
+            <li>MES ANNONCES</li>
+            <li>BOUTIQUES</li>
+        </ul>
 
-<a href="#">Se connecter</a>
-</header>
-<!-- FIN DU HEADER VESRION TABLETTE -->
+        <div class="login">
+            <a href="#">Se connecter</a>
+        </div>
+    </header>
+    <!-- FIN DU HEADER VESRION TABLETTE -->
 
-<section class="annonce">
-<h2>Déposer une annonce</h2>
-<hr>
+    <section class="annonce">
+        <h2>Déposer une annonce</h2>
+        <hr>
 
-<h3>Votre annonce</h3>
+        <h3>Votre annonce</h3>
 
-<form>
-<label for="categorie">Catégorie*<br></label>
-<select name="choix">
+        <form>
+            <label for="categorie">Catégorie*<br></label>
+            <select name="choix">
   <option value="choice">"Choisissez une catégorie"</option>
   <optgroup label="-- EMPLOI --">
     <option value="offre">Offres d'emploi</option>
@@ -61,127 +65,138 @@
   </optgroup>
 </select>
 
-<p>Vous êtes un *</p>
-<input type="radio" name="type"/>
-<label for="particulier">Particulier</label>
+            <p>Vous êtes un *</p>
+            <input type="radio" name="type" />
+            <label for="particulier">Particulier</label>
 
-<input type="radio" name="type"/>
-<label for="pro">Professionnel</label>
+            <input type="radio" name="type" />
+            <label for="pro">Professionnel</label>
 
-<p>Type d'annonce *</p>
-<input type="radio" name="annonce"/>
-<label for="offres">Offres</label>
+            <p>Type d'annonce *</p>
+            <input type="radio" name="annonce" />
+            <label for="offres">Offres</label>
 
-<input type="radio" name="demandes"/>
-<label for="demandes">Demandes</label>
+            <input type="radio" name="demandes" />
+            <label for="demandes">Demandes</label>
 
-<p>Titre de l'annonce</p>
-<textarea name="titre" rows="8" cols="35"></textarea>
-<br>
+            <p>Titre de l'annonce</p>
+            <textarea name="titre" rows="8" cols="35"></textarea>
+            <br>
 
-<p>Texte de l'annonce *</p>
-<textarea name="texte" rows="8" cols="35"></textarea>
+            <p>Texte de l'annonce *</p>
+            <textarea name="texte" rows="8" cols="35"></textarea>
 
-<p>Prix</p>
-<div class="prix">
-<input type="text"/>
-</div>
-
-
-<p>Photos : Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
-
-<article class="photo">
-  <h4>7ème photo <br>supplémentaire</h4>
-  <figure>
-    <img src="img/appareil.png" alt="appareil photo">
-</article>
-
-</form>
-
-<h3>Localisation</h3>
-<article class="localisation">
-
-<form>
-
-  <p>Ville ou code postal *</p>
-  <input type="text"></input>
-
-  <p>adresse</p>
-  <input type"text" placeholder="Voie ou numéro + voie"/>
-
-<br>
-
-<button class="adresse" type="submit" name="valider">Valider mon adresse</button>
-
-<p class="complement">Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
-Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
-</form>
-
-<figure class="position">
-  <img src="img/position.png" alt="localisation en France">
-</figure>
-</article>
+            <p>Prix</p>
+            <div class="prix">
+                <input type="text" />
+            </div>
 
 
-<h3>Vos informations</h3>
+            <p>Photos : Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
 
-<form class="informations">
-  <label for="pseudo">Pseudo *</label>
-<br>
-  <input type="pseudo"></input>
+            <article class="photo">
+                <h4>7ème photo <br>supplémentaire</h4>
+                <figure>
+                    <img src="img/appareil.png" alt="appareil photo">
+            </article>
 
-<br>
+        </form>
 
-  <label for="email">Email *</label>
-<br>
-  <input type="email"></input>
+        <h3>Localisation</h3>
+        <article class="localisation">
 
-<br>
+            <form>
 
-<label for="number">Téléphone *</label>
-<br>
-<input type="number" required></input>
+                <p>Ville ou code postal *</p>
+                <input type="text"></input>
 
-<br>
-<input type="checkbox" name="masquer"/>
-<label for="masquer">Masquer le numéro de téléphone dans l'annonce</label>
+                <p>adresse</p>
+                <input type "text" placeholder="Voie ou numéro + voie" />
 
-<br>
-<input type="checkbox" name="societe"/>
-<label for="societe">Je ne souhaite pas être sollicité par des société étrangères au site leboncoin.fr</label>
+                <br>
 
-<p>Champs obligatoires *</p>
+                <button class="adresse" type="submit" name="valider">Valider mon adresse</button>
 
-<button type="submit">Valider</button>
-</form>
+                <p class="complement">Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce. Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information
+                    ne sera conservée que le temps de la publication de votre annonce.</p>
+            </form>
 
-</section>
-
-<footer>
-  <p>leboncoin 2016 - 2017</p>
-  <a href="www.facebook.fr"><img src="" alt=""></a>
-  <a href="www.twitter.fr"><img src="" alt=""></a>
-</footer>
+            <figure class="position">
+                <img src="img/position.png" alt="localisation en France">
+            </figure>
+        </article>
 
 
+        <h3>Vos informations</h3>
+
+        <form class="informations">
+            <label for="pseudo">Pseudo *</label>
+            <br>
+            <input type="pseudo"></input>
+
+            <br>
+
+            <label for="email">Email *</label>
+            <br>
+            <input type="email"></input>
+
+            <br>
+
+            <label for="number">Téléphone *</label>
+            <br>
+            <input type="number" required></input>
+
+            <br>
+            <input type="checkbox" name="masquer" />
+            <label for="masquer">Masquer le numéro de téléphone dans l'annonce</label>
+
+            <br>
+            <input type="checkbox" name="societe" />
+            <label for="societe">Je ne souhaite pas être sollicité par des société étrangères au site leboncoin.fr</label>
+
+            <p>Champs obligatoires *</p>
+
+            <button type="submit">Valider</button>
+        </form>
+
+    </section>
+
+    <footer>
+        <p>leboncoin 2016 - 2017</p>
+        <a href="www.facebook.fr"><img src="" alt=""></a>
+        <a href="www.twitter.fr"><img src="" alt=""></a>
+    </footer>
 
 
 
 
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
 </html>
