@@ -259,6 +259,11 @@ textarea
   width: 100%;
 }
 
+/* Ajout de la bordure à l'article */
+.localisation
+{
+  border: 1px solid lightgrey;
+}
 /* Reglage du bouton 'valider votre adresse' */
 .adresse
 {
@@ -278,6 +283,12 @@ textarea
 {
   background-color: lightblue;
   border-radius: 5%;
+}
+
+
+.localisation form
+{
+  border: 1px solid white;
 }
 
 .position
@@ -428,11 +439,14 @@ tr
     display: none;
   }
 
-.tablette
-{
-  display: flex;
-}
+/* Version tablette */
+  .tablette
+  {
+    display: flex;
+    justify-content: space-between;
+  }
 
+/* Ajout de la liste dans le header version tablette */
 .header ul, a
 {
   display: flex;
@@ -441,17 +455,22 @@ tr
   text-decoration: none;
 }
 
-.tablette
-{
-  display: flex;
-  justify-content: space-between;
-}
-
+/* Mise en forme des 3 blocs de la page d'accueil */
 .tablette .blocs
 {
   display: flex;
   justify-content: space-between;
 }
+
+/* Mise en forme des boutons "déposer une annonce" et "rechercher autour de moi"*/
+.tablette .deposer, .tablette .rechercher
+{
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+/* Mise en forme de la liste à droite de l'écran */
 aside ul li
 {
   color: blue;
@@ -460,13 +479,25 @@ aside ul li
 
 }
 
-
+/* Mise en forme du bouton select et du paragraphe du bas */
 .region
 {
+  display: flex;
+  flex-direction: column;
   margin: auto;
   text-align: center;
 }
 
+.localisation
+{
+  display:flex;
+  border: 1px solid lightgrey;
+}
+
+.localisation form
+{
+  border: 1px solid white;
+}
 
 
 

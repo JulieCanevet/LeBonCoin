@@ -20,11 +20,26 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-<header>
+<!-- HEADER VERSION MOBILE -->
+<header class="mobile">
   <button type="submit">Menu</button>
   <h1>leboncoin</h1>
 </header>
 
+<!-- AJOUT DU HEADER VERSION TABLETTE -->
+<header class="header tablette">
+<h1>leboncoin</h1>
+<ul>
+  <li>DEPOSER UNE ANNONCE</li>
+  <li>OFFRES</li>
+  <li>DEMANDES</li>
+  <li>MES ANNONCES</li>
+  <li>BOUTIQUES</li>
+</ul>
+
+<a href="#">Se connecter</a>
+</header>
+<!-- FIN DU HEADER VESRION TABLETTE -->
 
 <section class="annonce">
 <h2>Déposer une annonce</h2>
@@ -84,14 +99,13 @@
 
 </form>
 
-
 <h3>Localisation</h3>
+<article class="localisation">
 
 <form>
 
-  <p>Ville ou code postal</p>
-  <textarea rows="2" cols="35">
-  </textarea>
+  <p>Ville ou code postal *</p>
+  <input type="text"></input>
 
   <p>adresse</p>
   <input type"text" placeholder="Voie ou numéro + voie"/>
@@ -102,14 +116,16 @@
 
 <p class="complement">Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
 Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
+</form>
 
 <figure class="position">
   <img src="img/position.png" alt="localisation en France">
 </figure>
+</article>
 
-</form>
 
 <h3>Vos informations</h3>
+
 <form class="informations">
   <label for="pseudo">Pseudo *</label>
 <br>
