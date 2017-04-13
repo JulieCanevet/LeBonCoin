@@ -445,17 +445,24 @@ tr {
     .header ul, a {
         display: flex;
         list-style-type: none;
+        flex-wrap: nowrap;
         color: white;
         text-decoration: none;
     }
+
+    /* Liste du header */
     .header li {
         margin-left: 1em;
     }
+
+    /* Mise en forme du lien "se connecter" */
     header .login {
         border-left: 2px solid white;
         border-right: 2px solid white;
         height: 100%;
     }
+
+    /* Mise en forme du lien "se connecter" */
     .login a {
         margin-top: 1.8em;
         margin-left: .5em;
