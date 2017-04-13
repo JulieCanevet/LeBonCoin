@@ -416,9 +416,62 @@ tr
     justify-content: space-around;
 }
 
+.tablette
+{
+  display: none;
+}
+
+@media (min-width: 768px )
+{
+.mobile
+  {
+    display: none;
+  }
+
+.tablette
+{
+  display: flex;
+}
+
+.header ul, a
+{
+  display: flex;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+
+.tablette
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tablette .blocs
+{
+  display: flex;
+  justify-content: space-between;
+}
+aside ul li
+{
+  color: blue;
+  text-align: right;
+  list-style-type: none;
+
+}
+
+
+.region
+{
+  margin: auto;
+  text-align: center;
+}
 
 
 
+
+
+}
 
 
 /* - - - - - - - - DEBUT DU FOOTER - - - - - - - - - */
