@@ -98,7 +98,7 @@ textarea {
 /* - - - - - - - HEADER - - - - - - - */
 header
 {
-  background-color: orange;
+  background-color: #FF792F;
   display: flex;
   justify-content: flex-start;
   height: 5em;
@@ -110,7 +110,7 @@ header button
   background-color: white;
   border: 0px solid white;
   border-radius: 5%;
-  color: orange;
+  color: #FF792F;
   padding: .7em;
   margin: 2em;
   font-size: 1.3em;
@@ -135,12 +135,11 @@ header h1
 {
   font-size: 1em;
   text-align: center;
-  margin-left:
 }
 
 h2 span
 {
-  color: orange;
+  color: #FF792F;
 }
 
 .accueil button
@@ -154,7 +153,7 @@ h2 span
 .deposer, .informations button
 {
   color: white;
-  background-color: blue;
+  background-color: #5E71FF;
   border: 1px solid white;
   width: 95%;
 }
@@ -162,8 +161,8 @@ h2 span
 /* réglage du bouton "rechercher une annonce"*/
 .rechercher
 {
-  color: blue;
-  border: 1px solid blue;
+  color: #5E71FF;
+  border: 1px solid #5E71FF;
   background-color: white;
   width: 95%;
 }
@@ -239,8 +238,8 @@ textarea
 /* Cadre pointillé orange */
 .photo
 {
-  color: orange;
-  border: 2px dashed orange;
+  color: #FF792F;
+  border: 2px dashed #FF792F;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -253,7 +252,7 @@ textarea
   height: 15%;
 }
 
-/* Icon appareil photo */
+/* Icone appareil photo */
 .photo img
 {
   width: 100%;
@@ -269,7 +268,7 @@ textarea
 {
   width: 95%;
   color: white;
-  background-color: orange;
+  background-color: #FF792F;
   margin-top: 2em;
   margin-left: 2%;
   padding-top: 1em;
@@ -281,7 +280,7 @@ textarea
 /* paragraphe sur fond bleu ciel */
 .complement
 {
-  background-color: lightblue;
+  background-color: #C4F3FF;
   border-radius: 5%;
 }
 
@@ -348,7 +347,7 @@ textarea
 
 .devis
 {
-  border: 1px solid blue;
+  border: 1px solid #5E71FF;
   font-weight: bold;
   border-radius: 5px;
   text-decoration: none;
@@ -413,12 +412,14 @@ tr
   margin-bottom: 2em;
 }
 
+/* Liens dans la case "wazemmes" */
 .wazemmes a
 {
   display: inline-flex;
   padding: 2em;
 }
 
+/* Liste des liens avec les icones */
 .bordure ul
 {
     width: 100%;
@@ -443,7 +444,7 @@ tr
   .tablette
   {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
 /* Ajout de la liste dans le header version tablette */
@@ -459,7 +460,7 @@ tr
 .tablette .blocs
 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* Mise en forme des boutons "déposer une annonce" et "rechercher autour de moi"*/
@@ -473,7 +474,7 @@ tr
 /* Mise en forme de la liste à droite de l'écran */
 aside ul li
 {
-  color: blue;
+  color: #5E71FF;
   text-align: right;
   list-style-type: none;
 
@@ -499,8 +500,42 @@ aside ul li
   border: 1px solid white;
 }
 
+/* -------------- PAGE OFFRES -------------- */
+/* section principale */
+.offres
+{
+  display: flex;
+}
 
+/* liens de la liste avec les icones à droite */
+.offres ul a, .bordure article a
+{
+  color: #5E71FF;
+}
 
+/* Espacement des deux articles à droite de l'écran */
+.bordure article
+{
+  margin-top: 1em;
+}
+
+/* Mise en forme de la case "gérer vos annonces"*/
+.gerer
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.haut, .bas
+{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.bordure
+{
+  border: 1px solid white;
+}
 
 }
 

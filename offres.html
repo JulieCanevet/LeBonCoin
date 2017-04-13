@@ -1,128 +1,137 @@
 <!doctype html>
 <html class="no-js" lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>leboncoin</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="icon" href="favicon.png" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>leboncoin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/icon/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/icon/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+<body>
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
+    <!-- Add your site or application content here -->
 
-<!-- HEADER VERSION MOBILE -->
-<header class="mobile">
-  <button type="submit">Menu</button>
-  <h1>leboncoin</h1>
-</header>
+    <!-- HEADER VERSION MOBILE -->
+    <header class="mobile">
+        <button type="submit">Menu</button>
+        <h1>leboncoin</h1>
+    </header>
 
-<!-- AJOUT DU HEADER VERSION TABLETTE -->
-<header class="header tablette">
-<h1>leboncoin</h1>
-<ul>
-  <li>DEPOSER UNE ANNONCE</li>
-  <li>OFFRES</li>
-  <li>DEMANDES</li>
-  <li>MES ANNONCES</li>
-  <li>BOUTIQUES</li>
-</ul>
+    <!-- AJOUT DU HEADER VERSION TABLETTE -->
+    <header class="header tablette">
+        <h1>leboncoin</h1>
+        <ul>
+            <li>DEPOSER UNE ANNONCE</li>
+            <li>OFFRES</li>
+            <li>DEMANDES</li>
+            <li>MES ANNONCES</li>
+            <li>BOUTIQUES</li>
+        </ul>
 
-<a href="#">Se connecter</a>
-</header>
-<!-- FIN DU HEADER VESRION TABLETTE -->
+        <a href="#">Se connecter</a>
+    </header>
+    <!-- FIN DU HEADER VESRION TABLETTE -->
+<!-- DEBUT DE LA SECTION PRINCIPALE -->
+    <section class="offres">
 
-<section class="offres">
-  <article class="maisonvolante">
-    <h1>Maison volante avec 2000 ballons</h1>
-    <figure>
-      <img src="img/ballon.jpg" alt="image ballons">
-    </figure>
-    <p>Mise en ligne le 12 avril à 11h17</p>
-    <a href="#" class="devis">Devis de déménagement gratuit</a>
-  </article>
+        <section>
+            <article class="maisonvolante">
+                <h1>Maison volante avec 2000 ballons</h1>
+                <figure>
+                    <img src="img/ballon.jpg" alt="image ballons">
+                </figure>
+                <p>Mise en ligne le 12 avril à 11h17</p>
+                <a href="#" class="devis mobile">Devis de déménagement gratuit</a>
+            </article>
 
-  <table>
-    <tr>
-      <th class="orange">Loyer mensuel</th>
-      <th>1€</th>
-    </tr>
+<!-- TABLEAU DESCRIPTIF DE L'ANNONCE -->
+            <table>
+                <tr>
+                    <th class="orange">Loyer mensuel</th>
+                    <th>1€</th>
+                </tr>
 
-    <tr>
-      <th class="orange">Ville</th>
-      <th>Le ciel</th>
-    </tr>
+                <tr>
+                    <th class="orange">Ville</th>
+                    <th>Le ciel</th>
+                </tr>
 
-    <tr>
-      <th class="orange">Type de bien</th>
-      <th>Maison volante</th>
-    </tr>
+                <tr>
+                    <th class="orange">Type de bien</th>
+                    <th>Maison volante</th>
+                </tr>
 
-    <tr>
-      <th class="orange">Surface</th>
-      <th>25m2</th>
-    </tr>
-  </table>
+                <tr>
+                    <th class="orange">Surface</th>
+                    <th>25m2</th>
+                </tr>
+            </table>
 
-<article class="description">
-<h3>Description :</h3>
-<p>Le ciel s'offre a vous, voguez où bon vous semble a bord de ce navire. Cette habitation est sans danger, cependant il reste conseillé de faire attention aux oiseaux.</p>
+            <article class="description">
+                <h3>Description :</h3>
+                <p>Le ciel s'offre a vous, voguez où bon vous semble a bord de ce navire. Cette habitation est sans danger, cependant il reste conseillé de faire attention aux oiseaux.</p>
+            </article>
+        </section>
+
+        <section class="bordure">
+
+            <article class="wazemmes">
+                <h2>Wazemmes</h2>
+                <button type="submit">Voir le numéro</button>
+                <button type="submit">Envoyer un email</button>
+            </article>
+
+            <article class="wazemmes gerer">
+                <h2>Gérer votre annonce</h2>
+              <div class="haut">
+                <a href="#"><i class="fa fa-star" aria-hidden="true"><br>Mettre en avant</i></a>
+                <a href="#"><i class="fa fa-long-arrow-up" aria-hidden="true"><br>Remonter en tête de liste</i></a>
+              </div>
+              <div class="bas">
+                <a class="bas" href="#"><i class="fa fa-pencil" aria-hidden="true"><br>Modifier l'annonce</i></a>
+                <a class="bas" href="#"><i class="fa fa-trash" aria-hidden="true"><br>Supprimer l'annonce</i></a>
+            </div>
 </article>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-heart-o" aria-hidden="true">
+      <br>Sauvegarder l'annonce</i>
+                    </a>
+                </li>
 
-<section class="bordure">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-exclamation" aria-hidden="true">
+      <br>Signaler l'annonce</i></a>
+                </li>
 
-<article class="wazemmes">
-<h2>Wazemmes</h2>
-<button type="submit">Voir le numéro</button>
-<button type="submit">Envoyer un email</button>
-</article>
+                <li> <a href="#"><i class="fa fa-connectdevelop" aria-hidden="true">
 
-<article class="wazemmes">
-  <h2>Gérer votre annonce</h2>
-<a class="haut" href="#"><i class="fa fa-star" aria-hidden="true"><br>Mettre en avant</i></a>
-<a class="haut" href="#"><i class="fa fa-long-arrow-up" aria-hidden="true"><br>Remonter en tête de liste</i></a>
-<br>
-<a class="bas" href="#"><i class="fa fa-pencil" aria-hidden="true"><br>Modifier l'annonce</i></a>
-<a class="bas" href="#"><i class="fa fa-trash" aria-hidden="true"><br>Supprimer l'annonce</i></a>
-</article>
+      <br>Partager l'annonce</i></a>
+                </li>
 
-<ul>
-  <li><a href="#">
-    <i class="fa fa-heart-o" aria-hidden="true">
-      <br>
-Sauvegarder l'annonce
-    </i>
-  </a></li>
+        </section>
 
-  <li><a href="#">
-    <i class="fa fa-exclamation" aria-hidden="true">
-      <br>Signaler l'annonce</i></a></li>
+    </section>
 
-<li>  <a href="#"><i class="fa fa-connectdevelop" aria-hidden="true">
-
-    <br>Partager l'annonce</i></a></li>
-
-</section>
-
-</section>
-
-<footer>
-  <p>leboncoin 2016 - 2017</p>
-  <a href="www.facebook.fr"><img src="" alt=""></a>
-  <a href="www.twitter.fr"><img src="" alt=""></a>
-</footer>
+    <footer>
+        <p>leboncoin 2016 - 2017</p>
+        <a href="www.facebook.fr"><img src="" alt=""></a>
+        <a href="www.twitter.fr"><img src="" alt=""></a>
+    </footer>
 
 
 
@@ -130,19 +139,30 @@ Sauvegarder l'annonce
 
 
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
 </html>
