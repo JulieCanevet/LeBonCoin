@@ -66,14 +66,14 @@
 </select>
 
             <p>Vous êtes un *</p>
-            <input type="radio" name="type" />
+            <input type="radio" name="particulier" />
             <label for="particulier">Particulier</label>
 
-            <input type="radio" name="type" />
+            <input type="radio" name="pro" />
             <label for="pro">Professionnel</label>
 
             <p>Type d'annonce *</p>
-            <input type="radio" name="annonce" />
+            <input type="radio" name="offres" />
             <label for="offres">Offres</label>
 
             <input type="radio" name="demandes" />
@@ -98,6 +98,7 @@
                 <h4>7ème photo <br>supplémentaire</h4>
                 <figure>
                     <img src="img/appareil.png" alt="appareil photo">
+                </figure>
             </article>
 
         </form>
@@ -107,11 +108,11 @@
 
             <form>
 
-                <p>Ville ou code postal *</p>
-                <input type="text"></input>
+                <label for="ville">Ville ou code postal *</label>
+                <input type="text" name="ville"/>
 
-                <p>adresse</p>
-                <input type "text" placeholder="Voie ou numéro + voie" />
+                <label for="adresse">adresse</label>
+                <input type="text" name="adresse" placeholder="Voie ou numéro + voie" />
 
                 <br>
 
@@ -132,19 +133,19 @@
         <form class="informations">
             <label for="pseudo">Pseudo *</label>
             <br>
-            <input type="pseudo"></input>
+            <input type="text" name="pseudo"/>
 
             <br>
 
             <label for="email">Email *</label>
             <br>
-            <input type="email"></input>
+            <input type="email" name="email"/>
 
             <br>
 
-            <label for="number">Téléphone *</label>
+            <label for="telephone">Téléphone *</label>
             <br>
-            <input type="number" required></input>
+            <input type="number" name="telephone" required/>
 
             <br>
             <input type="checkbox" name="masquer" />
@@ -163,15 +164,7 @@
 
     <footer>
         <p>leboncoin 2016 - 2017</p>
-        <a href="www.facebook.fr"><img src="" alt=""></a>
-        <a href="www.twitter.fr"><img src="" alt=""></a>
     </footer>
-
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
