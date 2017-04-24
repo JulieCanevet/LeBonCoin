@@ -456,7 +456,8 @@ tr {
     }
 
     /* Mise en forme du lien "se connecter" */
-    header .login {
+    header .login
+    {
         border-left: 2px solid white;
         border-right: 2px solid white;
         height: 100%;
@@ -473,6 +474,13 @@ tr {
         display: flex;
         justify-content: space-around;
     }
+
+  /* ajout des marges de la section principale */
+    .blocs {
+      width: 90%;
+      margin: auto;
+    }
+
     .blocs div {
         margin: 2em;
     }
