@@ -575,7 +575,11 @@ img
       text-align: center;
       width: 90%;
   }
+.region span
+{
+  color: blue;
 
+}
   .localisation {
       display: flex;
       border: 1px solid lightgrey;
