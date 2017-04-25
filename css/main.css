@@ -161,7 +161,7 @@ h2 span {
 }
 
 
-/* réglage du bouton "rechercher une annonce"*/
+/* réglage du bouton "rechercher autour de moi"*/
 
 .rechercher {
     color: #5E71FF;
@@ -170,16 +170,7 @@ h2 span {
     width: 95%;
 }
 
-
-/* Image de la carte de France */
-
-.accueil figure {
-    margin: auto;
-}
-
-
 /* Réglage du bouton "choisissez une région" */
-
 form select {
     margin-top: 1em;
     padding: .7em 20% .7em 20%;
@@ -412,7 +403,6 @@ tr {
 
 
 /* Liens dans la case "wazemmes" */
-
 .wazemmes a {
     display: inline-flex;
     padding: 2em;
@@ -420,7 +410,6 @@ tr {
 
 
 /* Liste des liens avec les icones */
-
 .bordure ul {
     width: 100%;
     list-style-type: none;
@@ -428,88 +417,49 @@ tr {
     justify-content: space-around;
 }
 
-.tablette {
+.tablette
+{
     display: none;
 }
 
+.desktop
+{
+  display: none;
+}
+
 @media (min-width: 768px) {
-    .mobile {
-        display: none;
-    }
-    /* Version tablette */
-    .tablette {
-        display: flex;
-        justify-content: space-around;
-    }
-    /* Ajout de la liste dans le header version tablette */
-    .header ul, a {
-        display: flex;
-        list-style-type: none;
-        flex-wrap: nowrap;
-        color: white;
-        text-decoration: none;
-    }
 
-    /* Liste du header */
-    .header li {
-        margin-left: 1em;
-    }
+.region
+{
+  display: none;
+}
+.accueil
+{
+  width: 95%;
+  display: flex;
+}
+.container
+{
+  display: inline-flex;
+}
+.container article
+{
+  width: 40%;
+}
+img
+{
+  width: 100%;
+}
+.container figure
+{
+  width: 60%;
+}
 
-    /* Mise en forme du lien "se connecter" */
-    header .login
-    {
-        border-left: 2px solid white;
-        border-right: 2px solid white;
-        height: 100%;
-    }
+.desktop
+{
+  display: none;
+}
 
-    /* Mise en forme du lien "se connecter" */
-    .login a {
-        margin-top: 1.8em;
-        margin-left: .5em;
-        margin-right: .5em;
-    }
-    /* Mise en forme des 3 blocs de la page d'accueil */
-    .tablette .blocs {
-        display: flex;
-        justify-content: space-around;
-    }
-
-  /* ajout des marges de la section principale */
-    .blocs {
-      width: 90%;
-      margin: auto;
-    }
-
-    .blocs div {
-        margin: 2em;
-    }
-    /* Mise en forme des boutons "déposer une annonce" et "rechercher autour de moi"*/
-    .tablette .deposer, .tablette .rechercher {
-        margin-bottom: 2em;
-        padding-bottom: 1em;
-        padding-top: 1em;
-    }
-    /* Mise en forme de la liste à droite de l'écran */
-    aside ul li {
-        color: #5E71FF;
-        text-align: right;
-        list-style-type: none;
-    }
-    /* Mise en forme du bouton select et du paragraphe du bas */
-    .region {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        text-align: center;
-    }
-    .localisation {
-        display: flex;
-        border: 1px solid lightgrey;
-    }
-    .localisation form {
-        border: 1px solid white;
-    }
     /* -------------- PAGE OFFRES -------------- */
     /* section principale */
     .offres {
@@ -537,6 +487,112 @@ tr {
     }
 }
 
+@media (min-width: 1024px) {
+  .mobile
+  {
+    display: none;
+  }
+  /* Version tablette */
+  .tablette {
+      display: flex;
+      justify-content: space-around;
+  }
+  /* Ajout de la liste dans le header version tablette */
+  .header ul, a {
+      display: flex;
+      list-style-type: none;
+      flex-wrap: nowrap;
+      color: white;
+      text-decoration: none;
+  }
+
+  /* Liste du header */
+  .header li {
+      margin-left: 1em;
+  }
+
+  /* Mise en forme du lien "se connecter" */
+  header .login
+  {
+      border-left: 2px solid white;
+      border-right: 2px solid white;
+      height: 100%;
+  }
+
+  /* Mise en forme du lien "se connecter" */
+  .login a {
+      margin-top: 1.8em;
+      margin-left: .5em;
+      margin-right: .5em;
+  }
+  /* Mise en forme des 3 blocs de la page d'accueil */
+  .blocs {
+      display: flex;
+      justify-content: space-around;
+      width: 90%;
+      margin:auto;
+  }
+
+/* Réglage de la carte page d'accueil */
+  .blocs figure {
+      width: 100%;
+  }
+
+  .blocs img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .blocs article, .blocs aside {
+    width: 30%;
+  }
+  .blocs div{
+    width: 38%;
+  }
+
+  .blocs article h2 {
+    font-size: 1em;
+  }
+
+  /* Mise en forme des boutons "déposer une annonce" et "rechercher autour de moi"*/
+  .tablette .deposer, .tablette .rechercher {
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+      padding-top: 1em;
+  }
+
+  /* Mise en forme de la liste à droite de l'écran */
+  aside ul li {
+      color: #5E71FF;
+      text-align: right;
+      list-style-type: none;
+  }
+  /* Mise en forme du bouton select et du paragraphe du bas */
+  .region {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+      width: 90%;
+  }
+
+  .localisation {
+      display: flex;
+      border: 1px solid lightgrey;
+  }
+  .localisation form {
+      border: 1px solid white;
+  }
+
+  .desktop {
+    display: flex;
+    color: white;
+  }
+.desktop ul
+{
+  list-style-type: none;
+}
+}
 
 /* - - - - - - - - DEBUT DU FOOTER - - - - - - - - - */
 
